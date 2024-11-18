@@ -1,0 +1,41 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/08/2019 14:04
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.html") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-calendar:before { content: "\f100"; }
+.flaticon-calendar-1:before { content: "\f101"; }
+.flaticon-location:before { content: "\f102"; }
+.flaticon-youtube:before { content: "\f103"; }
+.flaticon-elections:before { content: "\f104"; }
+.flaticon-text-document:before { content: "\f105"; }
+.flaticon-list:before { content: "\f106"; }
+.flaticon-computer:before { content: "\f107"; }
+.flaticon-graph-icon:before { content: "\f108"; }
